@@ -1,0 +1,6 @@
+Background:  #536274 (rgb 83, 98, 116)
+Frame Background: #ABAFBC (rgb 171, 175, 188)
+Menu Background: #848894 (rgb 132, 136, 148)
+Content Background: #DDE2F2 (rgb 221, 226, 242)
+
+Text: #000

@@ -1,0 +1,56 @@
+body {
+    background-color: #536274;
+    padding: 0;
+    margin: 0;
+    color: #DDE2F2;
+}
+#container {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    min-height: 600px;
+}
+header > img {
+    width: 50px;
+    display: block;
+}
+header {
+    position: absolute;
+    left: 5px;
+    top: 5px;
+}
+section {
+    display: block;
+    margin: auto;
+    text-align: center;
+}
+fieldset {
+    width: auto;
+    border: 0;
+}
+fieldset > div {
+    text-align: center;
+    width: 100%;
+    padding: 4px;
+}
+fieldset > div > label, fieldset > div > input[type=text], fieldset > div > input[type=password], fieldset > div > button {
+    display: block;
+    width: 250px;
+    margin: auto;
+    height: 2em;
+    border-radius: 5px;
+}
+fieldset > div > label {
+    margin-top: 10px;
+}
+button  {
+    background-color: #848894;
+    color: #FFF;
+}
+
+.all-center {
+    text-align: center; 
+    display: flex; 
+    align-items: center;
+    justify-content: center;
+}

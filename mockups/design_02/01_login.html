@@ -4,22 +4,24 @@
 <head>
     <meta charset="utf-8" >
     <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" href="../base.css">
     <link rel="stylesheet" type="text/css" href="site.css">
+    <title>OLMEC :: </title>
     <style type="text/css">
         section {
-            border: dashed 1px #F00;
+            margin: auto;
             display: table-cell;
-            min-height: 600px;
-            height: 100%;
-            vertical-align: center;
+        }
+        fieldset {
+            margin: auto;
         }
     </style>
 </head>
 
 <body>
-    <div id="container">
+    <div id="container" class="all-center" onclick="document.location.href='02_main.html';">
         <header>
-            <img src="olmec.svg" valign="middle"> OLMEC
+            <img src="../olmec.svg"> OLMEC
         </header>
         <section>
             <fieldset>
@@ -32,17 +34,10 @@
                     <input type="password" name="password">
                 </div>
                 <div>
-                    <label></label>
+                    <label style="height: 0;">&nbsp;</label>
                     <button>Log In</button>
                 </div>
             </fieldset>
-            <div class="notes">
-                Log In will take you to the main page.  Depending on how many classes you have, is that the main page will look like.
-                <ul>
-                    <li><a href="02_main.html">One Class</a></li>
-                    <li>Two+ Classes</li>
-                </ul>
-            </div>
         </section>
         <footer>
 
